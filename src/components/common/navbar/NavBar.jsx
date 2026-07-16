@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import logo from "../../../assets/logo.png";
 import { Link } from "react-scroll";
-import { profile } from "C:/Users/USER/Desktop/picto-1.0.0/src/data/profile.js";
+import { profile } from "../../../data/profile.js";
 
 const navItems = [
   { id: 1, name: "Home", url: "introduction" },
