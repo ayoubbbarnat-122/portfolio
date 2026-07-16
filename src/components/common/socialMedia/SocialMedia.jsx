@@ -1,8 +1,8 @@
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { profile } from "C:/Users/USER/Desktop/picto-1.0.0/src/data/profile.js";
-
+//import { profile } from "C:/Users/USER/Desktop/picto-1.0.0/src/data/profile.js";
+import { profile } from "../../../data/profile.js";
 const socialIcons = [
   { icon: faLinkedin, link: profile.linkedin },
   { icon: faEnvelope, link: `mailto:${profile.email}` },
